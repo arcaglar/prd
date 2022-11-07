@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+@import './reset.scss';
+@import './header.scss';
+@import './sidebar.scss';
+@import './breadcrumb.scss';
+@import './draglist.scss';
+@import './sidepanel.scss';
+@import './form.scss';
+
+html, body, #root {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    min-height: 100%;
+    width: unset !important;
+    height: unset !important;
+}
+
+.wrapper {
+    background-color: #fafbfc;
+    transition: all 150ms ease-in-out;
+    display: flex;
+    flex: 1;
+    padding-left: 185px;
+}
+
+.container {
+    width: 100%;
+}
+
+.wrapper-inner {
+    position: relative;
+    display: flex;
+    flex: 1;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+}
